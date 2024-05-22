@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.content {
+    max-width: 600px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.pics {
+    border: 1px solid #303030;
+    width: 199px;
+    height: 199px;
+}
+
+.meong {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 55px;
+    bottom: 60px
+}
+
+.meongTegBox {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.meongTeg {
+    width: 100px;
+    height: 28px;
+    background-color: #e4d7ca;
+    border-radius: 15px;
+    margin: 10px 15px;
+    text-align: center;
+}
+
+.addButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e4d7ca;
+    text-align: center;
+    position: fixed;
+    bottom: 80px;
+}

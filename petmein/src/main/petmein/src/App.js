@@ -1,14 +1,28 @@
-import logo from './logo.svg';
-import './css_doh/App.css';
+// import TopNav from './nav/top-nav';
+// import "./css_doh/App.css"
+import MeongsaengTop from './js_jiho/meongsaeng-top';
 import BottomNav from './nav/bottom-nav';
-import TopNav from './nav/top-nav';
+import Meongsaeng from './js_jiho/meongsaeng';
+import MyPage from './js_jiho/mypage';
+import MeongsaengContent from './js_jiho/meongsaengContent';
+import SaveBoardPage from './js_jiho/saveboardpage';
+
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <TopNav></TopNav>
+      {/* 마이페이지, 마이페이지 내 글
+      <MyPage></MyPage>
+      <MeongsaengContent></MeongsaengContent> */}
+      {/* 멍생 페이지 (검색창, 태그박스, 콘텐츠)
+      <MeongsaengTop></MeongsaengTop>
+      <Meongsaeng></Meongsaeng> */}
+      {/* 저장한 게시물 
+      <SaveBoardPage></SaveBoardPage> */}
       <BottomNav></BottomNav>
-    </div>
+      </div>
+
   );
 }
 

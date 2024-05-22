@@ -1,0 +1,16 @@
+.mytop {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    position: fixed;
+    height: 62px;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 10;
+    align-items: center;
+}
+

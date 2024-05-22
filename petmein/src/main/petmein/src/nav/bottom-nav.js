@@ -5,46 +5,47 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../css_jiho/bottom-nav.css"
 
 export default function BottomNav() {
   return (
     <div className="bottom">
       <div className="navbar">
-        <div className="nav-button" onClick={() => {}}>
+        <div className="nav-button">
           <a href="#home" className="nav-a">
             <FontAwesomeIcon
               icon={faHouse}
               className="homebutton"
-              style={{ color: "#e4d7ca", width: "28px", height: "28px" }}
+              style={{ color: "#e4d7ca", width: "25px", height: "23px" }}
             />
-            홈
+            <div>홈</div>
           </a>
         </div>
         <div className="nav-button">
           <a href="#reservation" className="nav-a">
             <FontAwesomeIcon
               icon={faCalendarCheck}
-              style={{ color: "#e4d7ca", width: "28px", height: "28px" }}
+              style={{ color: "#e4d7ca", width: "25px", height: "23px" }}
             />
-            예약
+            <div>에약</div>
           </a>
         </div>
         <div className="nav-button">
           <a href="#board" className="nav-a">
             <FontAwesomeIcon
               icon={faPaw}
-              style={{ color: "#e4d7ca", width: "28px", height: "28px" }}
+              style={{ color: "#e4d7ca", width: "25px", height: "23px" }}
             />
-            멍 생
+            <div>멍 생</div>
           </a>
         </div>
         <div className="nav-button">
           <a href="#mypage" className="nav-a">
             <FontAwesomeIcon
               icon={faUser}
-              style={{ color: "#e4d7ca", width: "28px", height: "28px" }}
+              style={{ color: "#e4d7ca", width: "25px", height: "23px" }}
             />
-            마이페이지
+            <div>마이페이지</div>
           </a>
         </div>
       </div>
