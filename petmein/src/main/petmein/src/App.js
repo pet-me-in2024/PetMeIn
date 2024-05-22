@@ -7,7 +7,7 @@ import Loginfind from "./js_doh/loginfind";
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <TopNav></TopNav>
       <Loginfind></Loginfind>
       {/* <BottomNav></BottomNav> */}
