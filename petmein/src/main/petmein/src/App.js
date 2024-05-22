@@ -8,7 +8,6 @@ function App() {
     <div className='App'>
       <TopNav></TopNav>
       <BottomNav></BottomNav>
-      dd
     </div>
   );
 }
