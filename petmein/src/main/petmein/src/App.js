@@ -6,6 +6,8 @@ import Meongsaeng from './js_jiho/meongsaeng';
 import MyPage from './js_jiho/mypage';
 import MeongsaengContent from './js_jiho/meongsaengContent';
 import SaveBoardPage from './js_jiho/saveboardpage';
+import Following from './js_jiho/following';
+import Follower from './js_jiho/follower';
 
 import "./App.css"
 
@@ -18,8 +20,11 @@ function App() {
       {/* 멍생 페이지 (검색창, 태그박스, 콘텐츠)
       <MeongsaengTop></MeongsaengTop>
       <Meongsaeng></Meongsaeng> */}
-      {/* 저장한 게시물 
+      {/* 저장한 게시물
       <SaveBoardPage></SaveBoardPage> */}
+       {/* 팔로잉, 팔로워
+       <Following></Following>
+       <Follower></Follower> */}
       <BottomNav></BottomNav>
       </div>
 

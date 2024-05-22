@@ -11,7 +11,7 @@ export default function SaveBoardPage() {
                         <FontAwesomeIcon icon={faChevronLeft} style={{ color: "#ceb69e", width: "30px", height: "25px" }} />
                     </div>
                     <div style={{ textAlign: "center", margin: "15px 10px" }}>
-                        <p style={{ fontWeight: "700", width: "150px" }}>저장한 게시물</p>
+                        <p style={{ fontWeight: "700", width: "120px", fontSize: "17px" }}>저장한 게시물</p>
                     </div>
                 </div>
                 <div style={{ display: "flex", width: "130px", height: "60px" }}>

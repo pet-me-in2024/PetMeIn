@@ -12,7 +12,7 @@ export default function MyPage() {
                             <FontAwesomeIcon icon={faChevronLeft} style={{ color: "#ceb69e", width: "30px", height: "25px" }} />
                         </div>
                         <div style={{ textAlign: "center", margin: "15px 10px" }}>
-                            <p style={{ fontWeight: "700" }}>jih0o_o0</p>
+                            <p style={{ fontWeight: "700", fontSize: "17px" }}>jih0o_o0</p>
                         </div>
                     </div>
                     <div style={{ display: "flex", width: "130px", height: "60px" }}>

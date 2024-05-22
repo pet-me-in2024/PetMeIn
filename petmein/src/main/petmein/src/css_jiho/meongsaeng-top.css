@@ -1,7 +1,12 @@
 .top {
     background: #FFFFFF;
     position: fixed;
-    height: 62px;
+    border-radius: 0px 0px 16px 16px;
+    background: #FFFFFF;
+    border-bottom: 0.5px solid #D2D5D6;
+    border-left: 0.5px solid #D2D5D6;
+    border-right: 0.5px solid #D2D5D6;
+    height: 55px;
     top: 0;
     left: 0;
     right: 0;
@@ -15,10 +20,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #FFFFFF;
-    border-bottom: 0.5px solid #D2D5D6;
-    border-left: 0.5px solid #D2D5D6;
-    border-right: 0.5px solid #D2D5D6;
     height: 50px;
     max-width: 600px;
     margin: auto;
@@ -28,6 +29,8 @@
     width: 510px;
     height: 30px;
     background-color: #D2D5D6;
-    border-radius: 10px;
+    border-radius: 8px;
     outline: none;
+    border: 0px;
+    padding: 2px;
 }
