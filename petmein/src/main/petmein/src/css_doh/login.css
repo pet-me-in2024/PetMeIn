@@ -1,0 +1,102 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login h3 {
+  margin-top: 90px;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+}
+
+.idpw {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.login-detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-btn {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e4d7ca;
+}
+
+.idpw-input {
+  width: 100%;
+  border-width: 0 0 2px;
+  padding: 5px;
+  outline: none;
+  border-color: #f2f2f2;
+}
+
+.simplesignup {
+  margin: 30px;
+}
+
+.social-button-naver {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #03c75a;
+  margin-top: 5px;
+}
+
+.social-button-kakao {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #fee500;
+  margin-top: 5px;
+}
+
+.social-button-google {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  margin-top: 5px;
+}
+
+.social-button-p {
+  margin: 0px;
+  color: white;
+}
+
+.social-button-kakao .social-button-p {
+  color: #191919;
+}
+
+.social-button-google .social-button-p {
+  color: #191919;
+}
+
+.googleimg {
+  width: 20px;
+  height: 20px;
+}
