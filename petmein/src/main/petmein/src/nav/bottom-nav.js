@@ -5,7 +5,7 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../css_jiho/bottom-nav.css"
+import "./bottom-nav.css"
 
 export default function BottomNav() {
   return (

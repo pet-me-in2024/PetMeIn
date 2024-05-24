@@ -12,7 +12,7 @@ export default function Following() {
         <>
             <div className="mytop">
                 <div style={{ display: "flex", width: "180px", height: "60px" }}>
-                    <div style={{ textAlign: "center", margin: "15px 10px 10px 20px" }}>
+                    <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
                         <FontAwesomeIcon icon={faChevronLeft} style={{ color: "#ceb69e", width: "30px", height: "25px" }} />
                     </div>
                     <div style={{ textAlign: "center", margin: "15px 10px" }}>
@@ -31,17 +31,17 @@ export default function Following() {
                 </div>
             </div>
             <div style={{ height: "62px", width: "600px" }}></div>
-            <div className="following-list">
+            <div>
                 <div style={{display: "flex", alignItems: "center" }}>
-                    <div className='user-profile-img' style={{ backgroundImage: 'url(' + img1 + ')' }}></div>
+                    <div className='follow-user-profile-img' style={{ backgroundImage: 'url(' + img1 + ')' }}></div>
                     <div style={{fontWeight: "700" }}>Jiho_0001</div>
                 </div>
                 <div style={{display: "flex", alignItems: "center"}}>
-                    <div className='user-profile-img' style={{ backgroundImage: 'url(' + img2 + ')' }}></div>
+                    <div className='follow-user-profile-img' style={{ backgroundImage: 'url(' + img2 + ')' }}></div>
                     <div style={{fontWeight: "700" }}>Jiho_0002</div>
                 </div>
                 <div style={{display: "flex", alignItems: "center"}}>
-                    <div className='user-profile-img' style={{ backgroundImage: 'url(' + img3 + ')' }}></div>
+                    <div className='follow-user-profile-img' style={{ backgroundImage: 'url(' + img3 + ')' }}></div>
                     <div style={{fontWeight: "700" }}>Jiho_0003</div>
                 </div>
             </div>

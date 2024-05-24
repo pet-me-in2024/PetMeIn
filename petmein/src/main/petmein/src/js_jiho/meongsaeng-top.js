@@ -10,7 +10,7 @@ export default function MeongsaengTop() {
         <div className="top">
             <div className="search-box">
                 <div>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: "#8c6e50", width: "25px", height: "25px" }} />
+                    <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: "#8c6e50", width: "25px", height: "25px", marginTop: "3px" }} />
                 </div>
                 <input className="box"></input>
             </div>

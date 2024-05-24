@@ -19,11 +19,12 @@
     align-items: center;
 }
 
-.user-profile-img {
-    height: 50px;
-    width: 50px;
+.follow-user-profile-img {
+    height: 70px;
+    width: 70px;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
     margin: 10px 30px 10px 50px;
+    border: 0.5px solid #dadada;
 }

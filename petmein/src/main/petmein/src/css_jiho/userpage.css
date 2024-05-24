@@ -1,0 +1,78 @@
+.user-page {
+    height: 270px;
+    width: 600px;
+    max-width: 600px;
+}
+
+.mytop {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    position: fixed;
+    border-radius: 0px 0px 16px 16px;
+    background: #FFFFFF;
+    border-bottom: 0.5px solid #D2D5D6;
+    border-left: 0.5px solid #D2D5D6;
+    border-right: 0.5px solid #D2D5D6;
+    height: 62px;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 10;
+    align-items: center;
+}
+
+.profile {
+    height: 188px;
+    width: 600px;
+}
+
+.profile-up {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 600px;
+}
+
+.profile-up-img {
+    height: 85px;
+    width: 85px;
+    background-image: url("../img/사진3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.profile-up-text {
+    width: 100px;
+    height: 48px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.userpage-profile-Low {
+    height: 105px;
+    width: 600px;
+}
+
+.userpage-introduce {
+    margin: 10px 0px 5px 45px;
+    display: flex;
+    align-items: center;
+}
+
+.user-follow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #e4d7ca;
+    text-align: center;
+    font-size: 15px;
+}
