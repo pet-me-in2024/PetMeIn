@@ -3,7 +3,7 @@ import MeongsaengTop from './js_jiho/meongsaeng-top';
 import BottomNav from './nav/bottom-nav';
 import Meongsaeng from './js_jiho/meongsaeng';
 import MyPage from './js_jiho/mypage';
-import MeongsaengContent from './js_jiho/meongsaengContent';
+import MeongsaengContent from './js_jiho/meongsaengcontent';
 import SaveBoardPage from './js_jiho/saveboardpage';
 import Following from './js_jiho/following';
 import Follower from './js_jiho/follower';
@@ -11,7 +11,8 @@ import MeongsaengSearch from './js_jiho/meongsaengsearch';
 import MeongsaengNameSearch from './js_jiho/meongsaengnamesearch';
 import MeongsaengTegSearch from './js_jiho/meongsaengtegsearch';
 import UserPage from './js_jiho/userpage';
-import TopNav from './nav/top-nav';
+import Comment from "./js_jiho/comment";
+import MeongsaengPost from "./js_jiho/meongsaengpost";
 
 function App() {
   return (
@@ -40,6 +41,10 @@ function App() {
       <UserPage></UserPage>
       <MeongsaengContent></MeongsaengContent> */}
 
+      {/* 댓글창
+      <Comment></Comment> */}
+
+      <MeongsaengPost></MeongsaengPost>
       <BottomNav></BottomNav>
     </div>
 

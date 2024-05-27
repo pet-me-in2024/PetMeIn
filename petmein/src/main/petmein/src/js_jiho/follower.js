@@ -15,8 +15,8 @@ export default function Follower() {
                     <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
                         <FontAwesomeIcon icon={faChevronLeft} style={{ color: "#ceb69e", width: "30px", height: "25px" }} />
                     </div>
-                    <div style={{ textAlign: "center", margin: "15px 10px" }}>
-                        <p style={{ fontWeight: "700", fontSize: "17px" }}>팔로워</p>
+                    <div style={{ textAlign: "center", margin: "11px 0px 0px 15px" }}>
+                        <p style={{ fontWeight: "700", fontSize: "20px" }}>팔로워</p>
                     </div>
                 </div>
                 <div style={{ display: "flex", width: "130px", height: "60px" }}>

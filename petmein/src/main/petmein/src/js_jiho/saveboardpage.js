@@ -1,6 +1,6 @@
 import { faBell, faCalendarCheck, faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import MeongsaengContent from "./meongsaengContent";
+import MeongsaengContent from "./meongsaengcontent";
 
 export default function SaveBoardPage() {
     return (

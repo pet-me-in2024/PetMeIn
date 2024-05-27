@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../css_jiho/meongsaengContent.css"
+import "../css_jiho/meongsaengcontent.css"
 
 
 export default function MeongsaengContent() {

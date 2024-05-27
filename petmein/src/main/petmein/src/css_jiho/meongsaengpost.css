@@ -1,0 +1,66 @@
+.post-top {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    position: fixed;
+    height: 62px;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 0px 0px 16px 16px;
+    background: #FFFFFF;
+    border-bottom: 0.5px solid #D2D5D6;
+    border-left: 0.5px solid #D2D5D6;
+    border-right: 0.5px solid #D2D5D6;
+    margin: 0 auto;
+    z-index: 10;
+    align-items: center;
+}
+
+.post-profile-img {
+    background-image: url("../img/사진5.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 10px 15px 10px 30px;
+}
+
+.post-photo {
+    background-image: url("../img/사진3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: 550px;
+}
+
+.post-handle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.post-tegs {
+    width: 100%;
+    height: 100%;
+}
+
+.post-teg-box {
+    display: flex;
+    width: 600px;
+}
+
+.post-teg {
+    width: 100px;
+    height: 28px;
+    background-color: #e4d7ca;
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+    font-weight: 600;
+}
