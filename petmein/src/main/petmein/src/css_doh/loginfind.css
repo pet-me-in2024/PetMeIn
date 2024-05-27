@@ -62,14 +62,16 @@
   margin-top: 5rem;
 }
 
-.modal-close-btn {
+.loginfind .modal-close-btn {
   cursor: pointer;
   padding: 0px;
   width: 100%;
   background-color: #e4d7ca;
+  border: none;
+  border-top: 1px solid black;
 }
 
-.modal-container {
+.loginfind .modal-container {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -81,7 +83,7 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-.modal-content {
+.loginfind .modal-content {
   background-color: #ffffff;
   border: 1px solid;
   width: 250px;

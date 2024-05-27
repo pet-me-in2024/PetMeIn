@@ -1,0 +1,65 @@
+.signupsalonform {
+  padding-top: 50px;
+}
+
+.signupsalonform label {
+  font-size: 13px;
+}
+
+.signupsalonform input {
+  width: 100%;
+  border: 1px solid #cbcbcb;
+}
+
+.signupform-container button {
+  border: 1px solid #cbcbcb;
+  background-color: white;
+  font-size: 12px;
+}
+
+.signupform-container {
+  width: 100%;
+  margin-top: 10px;
+  align-items: baseline;
+  height: auto;
+}
+
+.timeselect {
+  display: flex;
+  flex-direction: row;
+}
+
+.signupform-input {
+  cursor: pointer;
+  padding: 2px 4px;
+  border: 1px solid #cbcbcb;
+}
+
+.signupform-continuebutton {
+  position: fixed;
+  border: none;
+  background-color: #e4d7ca;
+  width: 538px;
+  height: 30px;
+  bottom: 10px;
+}
+
+.end {
+  padding-bottom: 50px;
+}
+
+.signupform-container-auth {
+  display: flex;
+}
+
+.signupform-container-auth input {
+  width: 475px;
+}
+
+.margindiv {
+  position: fixed;
+  bottom: 0px;
+  background-color: #f2f2f2;
+  width: 538px;
+  height: 10px;
+}

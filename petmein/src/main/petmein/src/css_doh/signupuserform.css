@@ -1,0 +1,113 @@
+.signupuserform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 20px;
+  background-color: #f2f2f2;
+}
+
+.signupuserform label {
+  font-size: 13px;
+}
+
+.signupuserform input {
+  border: 1px solid #cbcbcb;
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+}
+
+.signupuserform-container {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.signupuserform-container-genderselect input {
+  width: 14px;
+  height: 15px;
+  margin: 3px;
+}
+
+.phoneauth input {
+  width: 60%;
+  outline: none;
+  border-color: #cbcbcb;
+}
+
+.phoneauth button {
+  margin-left: 5px;
+  width: 38%;
+  background-color: white;
+  border: 1px solid #cbcbcb;
+}
+
+.signupuserform select {
+  border: 1px solid #cbcbcb;
+  width: 100%;
+}
+
+.doginfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.doginfo-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.doginfo-right p {
+  font-size: 12px;
+}
+
+.signupuserform-submitbutton {
+  position: fixed;
+  border: none;
+  background-color: #e4d7ca;
+  width: 538px;
+  height: 35px;
+  bottom: 10px;
+}
+
+.margindiv {
+  position: fixed;
+  bottom: 0px;
+  background-color: #f2f2f2;
+  width: 538px;
+  height: 10px;
+}
+
+.signupuserform .modal-close-btn {
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  background-color: #e4d7ca;
+  border: none;
+  border-top: 1px solid black;
+}
+
+.signupuserform .modal-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.signupuserform .modal-content {
+  background-color: #ffffff;
+  border: 1px solid;
+  width: 250px;
+  height: 150px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

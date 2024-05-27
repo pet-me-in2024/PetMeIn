@@ -36,7 +36,7 @@ export default function Loginfind() {
             <div className={"modal-content"}>
               <FontAwesomeIcon
                 icon={faCheck}
-                style={{ color: "#e4d7ca", width: "28px", height: "28px" }}
+                style={{ color: "#3bbc46", width: "28px", height: "28px" }}
               />
               <p>
                 회원님의 아이디는

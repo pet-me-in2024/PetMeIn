@@ -1,0 +1,201 @@
+.managementpage {
+  padding-top: 40px;
+}
+
+.managementpage p {
+  font-size: 13px;
+}
+
+.managementpage hr {
+  width: 100%;
+  height: 5px;
+  background-color: #cbcbcb;
+  border: none;
+}
+
+.profile {
+  width: 100%;
+  height: 130px;
+  background-color: #e4d7ca;
+  display: flex;
+  align-items: center;
+}
+
+.profile-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+  overflow: hidden;
+  border: 3px solid white;
+  margin: 5px;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img p {
+  margin-bottom: 5px;
+  color: #cbcbcb;
+}
+
+.profile-description p {
+  margin: 0px;
+}
+
+.mypet-title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.mypet-list {
+  display: flex;
+}
+
+.mypet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mypet-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 70%;
+  overflow: hidden;
+  margin: 5px;
+  border: 2px solid #cbcbcb;
+}
+
+.salon-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  border: 2px solid #cbcbcb;
+}
+
+.reservation-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservation-container {
+  display: flex;
+}
+
+.salon-description {
+  margin-left: 10px;
+}
+
+.reservation-info {
+  width: 80px;
+  height: 80px;
+  background-color: #e4d7ca;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.managementpage .modal-close-btn {
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: #e4d7ca;
+  border: none;
+  border-top: 1px solid black;
+}
+
+.managementpage .modal-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.managementpage .modal-content {
+  background-color: #ffffff;
+  border: 1px solid;
+  width: 400px;
+  height: 425px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dogmodal input {
+  margin: 0 15px;
+  border: 1px solid #cbcbcb;
+}
+
+.dogmodal {
+  background-color: #f5f6f8;
+}
+
+.modal-content p {
+  margin: 0 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.reservation-date {
+  display: flex;
+  margin: 15px;
+}
+
+.reservation-date input {
+  width: 80px;
+  height: 25px;
+  outline: none;
+}
+
+.reservation-date p {
+  margin: 0 10px;
+}
+
+.reservation-hour {
+  margin: 15px;
+}
+
+.reservation-hour button {
+  width: 80px;
+  height: 45px;
+  margin: 2px;
+  border: 2px solid #cbcbcb;
+  border-radius: 7px;
+  background-color: white;
+  font-size: 13px;
+}
+
+.reservation-cut {
+  margin: 15px;
+}
+
+.reservation-cut button {
+  font-size: 13px;
+  width: 80px;
+  height: 45px;
+  margin: 2px;
+  border: 2px solid #cbcbcb;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.modal-button-container {
+  display: flex;
+}
+
+.btn-left {
+  border-right: 1px solid black;
+}

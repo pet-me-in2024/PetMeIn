@@ -1,0 +1,37 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup h3 {
+  margin-top: 90px;
+}
+
+.signup hr {
+  background: #f2f2f2;
+  height: 2px;
+  border: 0;
+  width: 100%;
+}
+
+.signup-category {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.p-small {
+  font-size: 10px;
+}
