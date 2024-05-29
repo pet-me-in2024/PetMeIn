@@ -19,14 +19,14 @@ export default function MeongsaengTegSearch() {
                 </div>
             </div>
             <div className="meong">
-                <div className="meongTegBox">
-                    <div className="meongTeg">아이디</div>
-                    <div className="meongTeg">내용</div>
-                    <div className="meongTeg">지역</div>
-                    <div className="meongTeg" style={{backgroundColor: "#c5a98d"}}>태그</div>
+                <div className="meongsaengtegsearch-teg-box">
+                    <div className="meongsaengtegsearch-teg">아이디</div>
+                    <div className="meongsaengtegsearch-teg">내용</div>
+                    <div className="meongsaengtegsearch-teg">지역</div>
+                    <div className="meongsaengtegsearch-teg" style={{backgroundColor: "#c5a98d"}}>태그</div>
                 </div>
             </div>
-            <div style={{ height: "62px", width: "600px" }}></div>
+            <div style={{ height: "62px", width: "100%" }}></div>
             <div>
                 <div style={{display: "flex", alignItems: "center" }}>
                     <div className='user-profile-img' style={{ backgroundImage: 'url(' + tegimg + ')' }}></div>

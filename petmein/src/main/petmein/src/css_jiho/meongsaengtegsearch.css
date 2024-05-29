@@ -43,19 +43,19 @@
     bottom: 60px
 }
 
-.meongTegBox {
+.meongsaengtegsearch-teg-box {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
-    width: 600px;
+    width: 100%;
 }
 
-.meongTeg {
+.meongsaengtegsearch-teg {
     width: 100px;
     height: 28px;
     background-color: #e4d7ca;
     border-radius: 15px;
-    margin: 10px 15px;
+    margin: 5px;
     text-align: center;
 }
 

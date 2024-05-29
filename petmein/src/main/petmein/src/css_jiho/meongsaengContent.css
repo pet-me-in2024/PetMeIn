@@ -12,10 +12,10 @@
     margin: 0 auto;
 }
 
-.pics {
-    border: 1px solid #303030;
-    width: 199px;
-    height: 199px;
+.meongsaengcontent-pics {
+    width: 160px;
+    height: 160px;
+    margin: 5px;
 }
 
 .meongcontent {

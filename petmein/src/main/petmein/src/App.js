@@ -13,39 +13,47 @@ import MeongsaengTegSearch from './js_jiho/meongsaengtegsearch';
 import UserPage from './js_jiho/userpage';
 import Comment from "./js_jiho/comment";
 import MeongsaengPost from "./js_jiho/meongsaengpost";
+import NewPost from "./js_jiho/newpost";
+import NewPost2 from "./js_jiho/newpost2";
 
 function App() {
   return (
     <div className="App">
-      {/* 멍생 페이지 (검색창, 태그박스, 콘텐츠)
-      <MeongsaengTop></MeongsaengTop>
-      <Meongsaeng></Meongsaeng> */}
+      {/* 멍생 페이지 (검색창, 태그박스, 콘텐츠) */}
+      {/* <MeongsaengTop></MeongsaengTop> */}
+      {/* <Meongsaeng></Meongsaeng> */}
 
-      {/* 멍생 검색화면
-       <MeongsaengSearch></MeongsaengSearch>
-      <MeongsaengNameSearch></MeongsaengNameSearch>
-      <MeongsaengTegSearch></MeongsaengTegSearch> */}
+      {/* 멍생 검색화면 */}
+       {/* <MeongsaengSearch></MeongsaengSearch> */}
+      {/* <MeongsaengTegSearch></MeongsaengTegSearch> */}
+      {/* <MeongsaengNameSearch></MeongsaengNameSearch> */}
 
-      {/* 마이페이지, 마이페이지 내 글
-      <MyPage></MyPage>
-      <MeongsaengContent></MeongsaengContent> */}
+      {/* 마이페이지, 마이페이지 내 글 */}
+      {/* <MyPage></MyPage> */}
+      {/* <MeongsaengContent></MeongsaengContent> */}
 
-      {/* 저장한 게시물
-      <SaveBoardPage></SaveBoardPage> */}
+      {/* 저장한 게시물 */}
+      {/* <SaveBoardPage></SaveBoardPage> */}
 
-      {/* 팔로잉, 팔로워
-       <Following></Following>
-       <Follower></Follower> */}
+      {/* 팔로잉, 팔로워 */}
+       {/* <Following></Following> */}
+       {/* <Follower></Follower> */}
 
-      {/* 다른사람 페이지
-      <UserPage></UserPage>
-      <MeongsaengContent></MeongsaengContent> */}
+      {/* 다른사람 페이지 */}
+      {/* <UserPage></UserPage> */}
+      {/* <MeongsaengContent></MeongsaengContent> */}
 
-      {/* 댓글창
-      <Comment></Comment> */}
+      {/* 댓글창 */}
+      {/* <Comment></Comment> */}
 
-      <MeongsaengPost></MeongsaengPost>
-      <BottomNav></BottomNav>
+      {/* 게시물 */}
+      {/* <MeongsaengPost></MeongsaengPost> */}
+
+      {/* 새 게시물 */}
+      {/* <NewPost></NewPost> */}
+      {/* <NewPost2></NewPost2> */}
+
+      {/* <BottomNav></BottomNav> */}
     </div>
 
   );

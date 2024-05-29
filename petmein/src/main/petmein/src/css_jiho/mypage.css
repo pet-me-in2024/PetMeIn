@@ -1,6 +1,6 @@
 .mypage {
     height: 250px;
-    width: 600px;
+    width: 100%;
     max-width: 600px;
 }
 
@@ -25,16 +25,16 @@
     align-items: center;
 }
 
-.profile {
+.mypage-profile {
     height: 188px;
-    width: 600px;
+    width: 100%;
 }
 
-.profile-up {
+.mypage-profile-up {
     display: flex;
     justify-content: space-evenly;
     height: 90px;
-    width: 600px;
+    width: 100%;
 }
 
 .profile-up-img {
@@ -54,11 +54,11 @@
     margin-top: 25px;
 }
 
-.profile-Low {
+.mypage-profile-Low {
     display: flex;
     justify-content: space-between;
     height: 98px;
-    width: 600px;
+    width: 100%;
 }
 
 .introduce {

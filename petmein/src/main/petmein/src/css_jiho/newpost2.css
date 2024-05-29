@@ -1,0 +1,112 @@
+.newpost-top {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    position: fixed;
+    height: 62px;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 0px 0px 16px 16px;
+    background: #FFFFFF;
+    border-bottom: 0.5px solid #D2D5D6;
+    border-left: 0.5px solid #D2D5D6;
+    border-right: 0.5px solid #D2D5D6;
+    margin: 0 auto;
+    z-index: 10;
+    align-items: center;
+}
+
+.new-post-photo {
+    background-image: url("../img/사진3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadada;
+    height: 350px;
+    width: 350px;
+}
+
+.new-post-file {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background-color: #d0c1b4;
+}
+
+.new-post-file-plus {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background-color: #d0c1b4;
+    margin-top: 5px;
+}
+
+.new-post-input {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.new-post-input-input {
+    border: 0;
+    margin-top: 10px;
+    border-top: 1px solid #dadada;
+    width: 80%;
+}
+
+.new-post-meongTegBox {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.new-post-meongteglist {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+
+.new-post-meongTeg {
+    width: 100px;
+    height: 28px;
+    background-color: #e4d7ca;
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+}
+
+.new-post-select-meongTeg {
+    width: 100px;
+    height: 28px;
+    background-color: rgb(206, 182, 158);
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+}
+
+.new-post-new-teg {
+    width: 270px;
+    height: 28px;
+    background-color: #e4d7ca;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.new-post-add {
+    width: 435px;
+    height: 28px;
+    background-color: #e4d7ca;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}

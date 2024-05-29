@@ -27,8 +27,8 @@ export default function MyPage() {
                     </div>
                 </div>
                 <div style={{ width: "600px", height: "62px" }}></div>
-                <div className="profile">
-                    <div className="profile-up">
+                <div className="mypage-profile">
+                    <div className="mypage-profile-up">
                         <div className="profile-up-img"></div>
                         <div className="profile-up-text">
                             <div style={{fontWeight: "700"}}>8</div>
@@ -43,7 +43,7 @@ export default function MyPage() {
                             <div style={{fontWeight: "500"}}>팔로잉▼</div>
                         </div>
                     </div>
-                    <div className="profile-Low">
+                    <div className="mypage-profile-Low">
                         <div className="introduce">
                             <pre style={{ margin: "0", fontWeight: "500"}}>
                                 4살 말티즈 ❤️프린❤️, ❤️보리❤️ <br></br>

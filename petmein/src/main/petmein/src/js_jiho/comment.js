@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../css_jiho/comment.css"
-import { faChevronLeft, faFaceSmile } from "@fortawesome/free-solid-svg-icons"
+import { faChevronLeft, faFaceSmile, faPaperPlane } from "@fortawesome/free-solid-svg-icons"
 import img1 from "../img/사진1.jpg";
 import img2 from "../img/사진2.jpg";
 import img3 from "../img/사진3.jpg";
@@ -66,6 +66,7 @@ export default function Comment() {
                     <div className="comment-input-profile-img"></div>
                     <input className="comment-input-input" placeholder="댓글을 남겨주세요."></input>
                    <FontAwesomeIcon icon={faFaceSmile} style={{color: "#d0c1b4", height: "20px", width: "20px", marginRight: "20px" }}/>
+                   <FontAwesomeIcon icon={faPaperPlane} style={{color: "#d0c1b4", height: "20px", width: "20px", marginRight: "20px"}} />
                 </div>
             </div>
         </>

@@ -13,9 +13,8 @@
 }
 
 .pics {
-    border: 1px solid #303030;
-    width: 199px;
-    height: 199px;
+    width: 100px;
+    height: 100px;
 }
 
 .meong {
@@ -26,19 +25,18 @@
     bottom: 60px
 }
 
-.meongTegBox {
-    flex-wrap: wrap;
+.meongseng-teg-box {
     display: flex;
     justify-content: space-around;
-    width: 600px;
+    width: 100%;
 }
 
-.meongTeg {
+.meongsaeng-teg {
     width: 100px;
     height: 28px;
     background-color: #e4d7ca;
     border-radius: 15px;
-    margin: 10px 15px;
+    margin: 5px;
     text-align: center;
 }
 
@@ -54,6 +52,6 @@
     background-color: #e4d7ca;
     position: fixed;
     bottom: 80px;
-    margin-left: 550px;
+    margin-left: 500px;
     border: 2px solid rgb(206, 182, 158);
 }

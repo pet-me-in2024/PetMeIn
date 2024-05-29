@@ -27,8 +27,8 @@ export default function UserPage() {
                     </div>
                 </div>
                 <div style={{ width: "600px", height: "62px" }}></div>
-                <div className="profile">
-                    <div className="profile-up">
+                <div className="userpage-profile">
+                    <div className="userpage-profile-up">
                         <div className="profile-up-img"></div>
                         <div className="profile-up-text">
                             <div style={{fontWeight: "700"}}>8</div>

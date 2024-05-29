@@ -6,15 +6,15 @@ export default function Meongsaeng() {
   return (
     <>
       <div className="meong">
-        <div className="meongTegBox">
-          <div className="meongTeg">#소형견</div>
-          <div className="meongTeg">#중형견</div>
-          <div className="meongTeg">#대형견</div>
+        <div className="meongseng-teg-box">
+          <div className="meongsaeng-teg">#소형견</div>
+          <div className="meongsaeng-teg">#중형견</div>
+          <div className="meongsaeng-teg">#대형견</div>
         </div>
-        <div className="meongTegBox">
-          <div className="meongTeg">#1세 미만</div>
-          <div className="meongTeg">#1 ~ 6세</div>
-          <div className="meongTeg">#7세 이상</div>
+        <div className="meongseng-teg-box">
+          <div className="meongsaeng-teg">#1세 미만</div>
+          <div className="meongsaeng-teg">#1 ~ 6세</div>
+          <div className="meongsaeng-teg">#7세 이상</div>
         </div>
         <div className="content">
           {
@@ -35,7 +35,7 @@ export default function Meongsaeng() {
 function Card(props) {
   return (
     <div className='pics'>
-      <img src={require('../img/사진' + (props.i + 1) + '.jpg')} height="198px" />
+      <img src={require('../img/사진' + (props.i + 1) + '.jpg')} height="150px" />
     </div>
   );
 }
