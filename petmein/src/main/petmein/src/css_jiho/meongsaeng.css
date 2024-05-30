@@ -12,9 +12,10 @@
     margin: 0 auto;
 }
 
-.pics {
-    width: 100px;
-    height: 100px;
+.meongsaeng-pics {
+    width: 160px;
+    height: 160px;
+    margin: 5px;
 }
 
 .meong {

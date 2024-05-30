@@ -34,8 +34,8 @@ export default function Meongsaeng() {
 
 function Card(props) {
   return (
-    <div className='pics'>
-      <img src={require('../img/사진' + (props.i + 1) + '.jpg')} height="150px" />
+    <div className='meongsaeng-pics'>
+      <img src={require('../img/사진' + (props.i + 1) + '.jpg')} height="160px" />
     </div>
   );
 }

@@ -21,10 +21,10 @@ export default function MeongsaengNameSearch() {
             </div>
             <div className="meong">
                 <div className="meongsaengnamesearch-teg-box">
-                    <div className="meongTeg" style={{backgroundColor: "#c5a98d"}}>아이디</div>
-                    <div className="meongTeg">내용</div>
-                    <div className="meongTeg">지역</div>
-                    <div className="meongTeg">태그</div>
+                    <div className="meongsaengnamesearch-teg" style={{backgroundColor: "#c5a98d"}}>아이디</div>
+                    <div className="meongsaengnamesearch-teg">내용</div>
+                    <div className="meongsaengnamesearch-teg">지역</div>
+                    <div className="meongsaengnamesearch-teg">태그</div>
                 </div>
             </div>
             <div style={{ height: "62px", width: "100%" }}></div>

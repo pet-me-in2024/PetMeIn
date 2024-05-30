@@ -9,6 +9,8 @@ import "./bottom-nav.css"
 
 export default function BottomNav() {
   return (
+    // c5a98d
+    // e4d7ca
     <div className="bottom">
       <div className="navbar">
         <div className="nav-button">
@@ -34,7 +36,7 @@ export default function BottomNav() {
           <a href="#board" className="nav-a">
             <FontAwesomeIcon
               icon={faPaw}
-              style={{ color: "#e4d7ca", width: "25px", height: "23px" }}
+              style={{ color: "#c5a98d", width: "25px", height: "23px" }}
             />
             <div>멍 생</div>
           </a>

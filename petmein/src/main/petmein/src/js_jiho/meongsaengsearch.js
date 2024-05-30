@@ -18,7 +18,7 @@ export default function MeongsaengSearch() {
             </div>
             <div className="meong">
                 <div className="meongsaengsearch-teg-box">
-                    <div className="meongsaengsearch-teg">아이디</div>
+                    <div className="meongsaengsearch-teg" style={{backgroundColor: "#c5a98d"}}>아이디</div>
                     <div className="meongsaengsearch-teg">내용</div>
                     <div className="meongsaengsearch-teg">지역</div>
                     <div className="meongsaengsearch-teg">태그</div>

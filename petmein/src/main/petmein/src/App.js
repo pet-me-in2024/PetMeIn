@@ -53,7 +53,7 @@ function App() {
       {/* <NewPost></NewPost> */}
       {/* <NewPost2></NewPost2> */}
 
-      {/* <BottomNav></BottomNav> */}
+      <BottomNav></BottomNav>
     </div>
 
   );
