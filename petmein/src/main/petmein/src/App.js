@@ -16,8 +16,8 @@ function App() {
   return (
     <div className="App">
       <TopNav></TopNav>
-      <Salonmanagementpage></Salonmanagementpage>
-      {/* <BottomNav></BottomNav> */}
+      <Login></Login>
+      <BottomNav></BottomNav>
     </div>
   );
 }

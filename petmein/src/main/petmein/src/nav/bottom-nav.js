@@ -15,36 +15,36 @@ export default function BottomNav() {
             <FontAwesomeIcon
               icon={faHouse}
               className="homebutton"
-              style={{ color: "#e4d7ca", width: "28px", height: "28px" }}
+              style={{ color: "#e4d7ca", width: "20px", height: "20px" }}
             />
-            홈
+            <p>홈</p>
           </a>
         </div>
         <div className="nav-button">
           <a href="#reservation" className="nav-a">
             <FontAwesomeIcon
               icon={faCalendarCheck}
-              style={{ color: "#e4d7ca", width: "28px", height: "28px" }}
+              style={{ color: "#e4d7ca", width: "20px", height: "20px" }}
             />
-            예약
+            <p>예약</p>
           </a>
         </div>
         <div className="nav-button">
           <a href="#board" className="nav-a">
             <FontAwesomeIcon
               icon={faPaw}
-              style={{ color: "#e4d7ca", width: "28px", height: "28px" }}
+              style={{ color: "#e4d7ca", width: "20px", height: "20px" }}
             />
-            멍 생
+            <p>멍생</p>
           </a>
         </div>
         <div className="nav-button">
           <a href="#mypage" className="nav-a">
             <FontAwesomeIcon
               icon={faUser}
-              style={{ color: "#e4d7ca", width: "28px", height: "28px" }}
+              style={{ color: "#e4d7ca", width: "20px", height: "20px" }}
             />
-            마이페이지
+            <p>마이페이지</p>
           </a>
         </div>
       </div>

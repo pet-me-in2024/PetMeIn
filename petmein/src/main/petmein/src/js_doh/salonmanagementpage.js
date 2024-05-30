@@ -3,10 +3,14 @@ import "../css_doh/salonmanagementpage.css";
 import dog from "../img/dog.jpg";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import { useRef, useState } from "react";
+import ReactCalendar from "./calendar";
 
 export default function Salonmanagementpage() {
+  const [modalOpen, setModalOpen] = useState(false);
   const [dogmodalOpen, setDogmodalOpen] = useState(false);
   const modalBackground = useRef();
+  const [day, setDay] = useState(new Date());
+
   return (
     <div className="salonmanagementpage">
       <div className="profile">
@@ -50,6 +54,8 @@ export default function Salonmanagementpage() {
         취소할 수 있습니다.
       </p>
       <hr className="thin-hr"></hr>
+      <ReactCalendar setModalOpen={setModalOpen}></ReactCalendar>
+
       {dogmodalOpen && (
         <div
           className={"modal-container"}
@@ -108,6 +114,38 @@ export default function Salonmanagementpage() {
             >
               등록하기
             </button>
+          </div>
+        </div>
+      )}
+      {modalOpen && (
+        <div
+          className={"modal-container"}
+          ref={modalBackground}
+          onClick={(e) => {
+            if (e.target === modalBackground.current) {
+              setModalOpen(false);
+            }
+          }}
+        >
+          <div className={"modal-content"}>
+            <p>예약 정보</p>
+            <div>강아지</div>
+            <div>멍멍이</div>
+            <div>댕댕이</div>
+            <div className="modal-button-container">
+              <button
+                className={"modal-close-btn btn-left"}
+                onClick={() => setModalOpen(false)}
+              >
+                휴무일 지정
+              </button>
+              <button
+                className={"modal-close-btn"}
+                onClick={() => setModalOpen(false)}
+              >
+                변경 및 확인
+              </button>
+            </div>
           </div>
         </div>
       )}

@@ -37,8 +37,54 @@
 
 .topnav-right-content {
   margin-left: 5px;
-  margin-top: px;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.bottom {
+  background: #ffffff;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  -webkit-box-align: center;
+  justify-content: space-around;
+  align-items: center;
+  background: #ffffff;
+  border-top: 0.5px solid #d2d5d6;
+  border-left: 0.5px solid #d2d5d6;
+  border-right: 0.5px solid #d2d5d6;
+  position: relative;
+  height: 62px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  justify-content: center;
+  width: 149px;
+}
+
+.nav-a {
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  font-size: 13px;
+  color: #b7b7b7;
 }

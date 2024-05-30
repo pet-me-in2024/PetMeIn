@@ -9,12 +9,18 @@ export default function TopNav() {
       </div>
       <div className="topnav-right">
         <div className="topnav-right-content">
-          <FontAwesomeIcon icon={faBell} />
-          <p>알림</p>
+          <FontAwesomeIcon
+            icon={faBell}
+            style={{ color: "#e4d7ca", width: "20px", height: "20px" }}
+          />
+          <p style={{ fontSize: "10px", fontWeight: "900" }}>알림</p>
         </div>
         <div className="topnav-right-content">
-          <FontAwesomeIcon icon={faCalendarCheck} />
-          <p>예약관리</p>
+          <FontAwesomeIcon
+            icon={faCalendarCheck}
+            style={{ color: "#e4d7ca", width: "20px", height: "20px" }}
+          />
+          <p style={{ fontSize: "10px", fontWeight: "900" }}>예약관리</p>
         </div>
       </div>
     </div>
