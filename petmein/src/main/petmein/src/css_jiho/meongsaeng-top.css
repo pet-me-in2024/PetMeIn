@@ -1,11 +1,8 @@
-.top {
+.meongsaengtop .top {
     background: #FFFFFF;
     position: fixed;
-    border-radius: 0px 0px 16px 16px;
     background: #FFFFFF;
     border-bottom: 0.5px solid #D2D5D6;
-    border-left: 0.5px solid #D2D5D6;
-    border-right: 0.5px solid #D2D5D6;
     height: 55px;
     top: 0;
     left: 0;
@@ -16,7 +13,7 @@
     z-index: 10;
 }
 
-.search-box {
+.meongsaengtop .search-box {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,7 +22,7 @@
     margin: auto;
 }
 
-.box {
+.meongsaengtop .box {
     width: 510px;
     height: 30px;
     background-color: #dadada;

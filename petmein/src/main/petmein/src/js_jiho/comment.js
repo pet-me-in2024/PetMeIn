@@ -7,7 +7,7 @@ import img3 from "../img/사진3.jpg";
 
 export default function Comment() {
     return (
-        <>
+        <div className="comment">
             <div className="board-top">
                 <div style={{ display: "flex", width: "180px", height: "60px" }}>
                     <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
@@ -69,6 +69,6 @@ export default function Comment() {
                    <FontAwesomeIcon icon={faPaperPlane} style={{color: "#d0c1b4", height: "20px", width: "20px", marginRight: "20px"}} />
                 </div>
             </div>
-        </>
+        </div>
     )
 }

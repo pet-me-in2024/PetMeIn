@@ -4,7 +4,7 @@ import { faBell, faCalendarCheck, faChevronLeft, faPaw } from "@fortawesome/free
 
 export default function NewPost() {
     return (
-        <>
+        <div className="newpost">
             <div className="newpost-top">
                 <div style={{ display: "flex", width: "180px", height: "60px" }}>
                     <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
@@ -62,6 +62,6 @@ export default function NewPost() {
                 </div>
             </div>
             <div style={{ height: "62px", width: "600px" }}></div>
-        </>
+        </div>
     )
 }

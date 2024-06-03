@@ -7,9 +7,8 @@ import img3 from "../img/사진3.jpg";
 
 
 export default function Following() {
-    // let [user10] = [0, 0, 0, 0, 0, 0, 0, 0, 0];
     return (
-        <>
+        <div className="following">
             <div className="mytop">
                 <div style={{ display: "flex", width: "180px", height: "60px" }}>
                     <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
@@ -46,19 +45,6 @@ export default function Following() {
                 </div>
             </div>
             <div style={{ height: "62px", width: "600px" }}></div>
-            {/* {
-                    user10.map((a, i) => {
-                        return (
-                            <FollowingUser i={i}></FollowingUser>
-                        )
-                    })
-                } */}
-        </>
+        </div>
     )
 }
-
-// function FollowingUser(props) {
-//     return (
-//       <div className='user-profile-img' style={{backgroundImage : 'url(img' + (props.i + 1) + ')'}}></div>
-//     );
-//   }

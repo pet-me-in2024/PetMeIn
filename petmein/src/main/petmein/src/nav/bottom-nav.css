@@ -29,11 +29,8 @@
     -webkit-box-align: center;
     justify-content: space-around;
     align-items: center;
-    border-radius: 16px 16px 0px 0px;
     background: #FFFFFF;
     border-top: 0.5px solid #D2D5D6;
-    border-left: 0.5px solid #D2D5D6;
-    border-right: 0.5px solid #D2D5D6;
     position: relative;
     height: 62px;
     max-width: 600px;

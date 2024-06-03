@@ -4,7 +4,7 @@ import { faBookmark, faChevronLeft, faComment, faHeart } from "@fortawesome/free
 
 export default function MeongsaengPost() {
     return (
-        <>
+        <div className="meongsaengpost">
             <div className="post-top">
                 <div style={{ display: "flex", width: "180px", height: "60px" }}>
                     <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
@@ -52,6 +52,6 @@ export default function MeongsaengPost() {
             </div>
 
             <div style={{ height: "62px", width: "600px" }}></div>
-        </>
+        </div>
     )
 }

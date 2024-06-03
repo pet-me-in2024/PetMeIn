@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "../css_jiho/meongsaeng.css"
+import MeongsaengContent from "./meongsaengcontent";
 
 export default function Meongsaeng() {
-  let [num] = useState([0, 1, 2, 3, 4, 5, 6, 7, 8])
   return (
-    <>
+    <div className="meongsaeng">
       <div className="meong">
         <div className="meongseng-teg-box">
           <div className="meongsaeng-teg">#소형견</div>
@@ -16,26 +16,9 @@ export default function Meongsaeng() {
           <div className="meongsaeng-teg">#1 ~ 6세</div>
           <div className="meongsaeng-teg">#7세 이상</div>
         </div>
-        <div className="content">
-          {
-            num.map((a, i) => {
-              return (
-                <Card i={i}></Card>
-              )
-            })
-          }
-          <div style={{ height: "62px", width: "600px" }}></div>
-        </div>
+        <MeongsaengContent></MeongsaengContent>
         <div className="addButton">+</div>
       </div>
-    </>
-  );
-}
-
-function Card(props) {
-  return (
-    <div className='meongsaeng-pics'>
-      <img src={require('../img/사진' + (props.i + 1) + '.jpg')} height="160px" />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-.newpost-top {
+.newpost .newpost-top {
     display: flex;
     justify-content: space-between;
     background: #FFFFFF;
@@ -9,17 +9,14 @@
     right: 0;
     max-width: 600px;
     width: 100%;
-    border-radius: 0px 0px 16px 16px;
     background: #FFFFFF;
     border-bottom: 0.5px solid #D2D5D6;
-    border-left: 0.5px solid #D2D5D6;
-    border-right: 0.5px solid #D2D5D6;
     margin: 0 auto;
     z-index: 10;
     align-items: center;
 }
 
-.new-post-photo-select {
+.newpost .new-post-photo-select {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,34 +25,34 @@
     width: 350px;
 }
 
-.new-post-file {
+.newpost .new-post-file {
     text-align: center;
     width: 100px;
     height: 30px;
     background-color: #d0c1b4;
 }
 
-.new-post-input {
+.newpost .new-post-input {
     height: 100px;
     display: flex;
     justify-content: center;
 }
 
-.new-post-input-input {
+.newpost .new-post-input-input {
     border: 0;
     margin-top: 10px;
     border-top: 1px solid #dadada;
     width: 80%;
 }
 
-.new-post-meongTegBox {
+.newpost .new-post-meongTegBox {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     width: 500px;
 }
 
-.new-post-meongTeg {
+.newpost .new-post-meongTeg {
     width: 100px;
     height: 28px;
     background-color: #e4d7ca;
@@ -64,7 +61,7 @@
     text-align: center;
 }
 
-.new-post-new-teg {
+.newpost .new-post-new-teg {
     width: 270px;
     height: 28px;
     background-color: #e4d7ca;
@@ -73,7 +70,7 @@
     text-align: center;
 }
 
-.new-post-add {
+.newpost .new-post-add {
     width: 435px;
     height: 28px;
     background-color: #e4d7ca;

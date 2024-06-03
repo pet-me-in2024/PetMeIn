@@ -7,7 +7,7 @@ import img3 from "../img/사진3.jpg";
 
 export default function MeongsaengNameSearch() {
     return (
-        <>
+        <div className="meongsaengnamesearch">
             <div className="top">
                 <div className="search-box">
                 <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
@@ -42,6 +42,6 @@ export default function MeongsaengNameSearch() {
                     <div style={{fontWeight: "700" }}>Jiho_0003</div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

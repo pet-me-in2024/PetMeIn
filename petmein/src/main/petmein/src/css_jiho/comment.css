@@ -1,4 +1,4 @@
-.board-top {
+.comment .board-top {
     display: flex;
     justify-content: space-between;
     background: #FFFFFF;
@@ -9,17 +9,14 @@
     right: 0;
     max-width: 600px;
     width: 100%;
-    border-radius: 0px 0px 16px 16px;
     background: #FFFFFF;
     border-bottom: 0.5px solid #D2D5D6;
-    border-left: 0.5px solid #D2D5D6;
-    border-right: 0.5px solid #D2D5D6;
     margin: 0 auto;
     z-index: 10;
     align-items: center;
 }
 
-.comment-user-profile-img {
+.comment .comment-user-profile-img {
     height: 50px;
     width: 50px;
     background-size: cover;
@@ -29,7 +26,7 @@
     border: 0.5px solid #dadada;
 }
 
-.com {
+.comment .com {
     height: 40px;
     width: 100%;
     display: flex;
@@ -40,7 +37,7 @@
     border-bottom: 0.5px solid #dadada;
 }
 
-.comment-doc {
+.comment .comment-doc {
     width: 100%;
     display: flex;
     align-items: center;
@@ -48,7 +45,7 @@
     margin: 5px 0px;
 }
 
-.comment-list {
+.comment .comment-list {
     width: 100%;
     height: 100%;
     border: 0.5px solid #dadada;
@@ -56,7 +53,7 @@
     margin-top: 5px;
 }
 
-.comment-input {
+.comment .comment-input {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -67,7 +64,7 @@
     border-top: 0.5px solid #dadada;
 }
 
-.comment-input-profile-img {
+.comment .comment-input-profile-img {
     background-image: url("../img/사진5.jpg");
     background-size: cover;
     background-position: center;
@@ -77,7 +74,7 @@
     height: 30px;
 }
 
-.comment-input-input {
+.comment .comment-input-input {
     width: 450px;
     border: 0;
 }

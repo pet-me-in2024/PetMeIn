@@ -4,7 +4,7 @@ import MeongsaengContent from "./meongsaengcontent";
 
 export default function SaveBoardPage() {
     return (
-        <>
+        <div className="saveboardpage">
             <div className="mytop">
                 <div style={{ display: "flex", width: "180px", height: "60px" }}>
                     <div style={{ textAlign: "center", margin: "15px 10px 10px 20px" }}>
@@ -27,6 +27,6 @@ export default function SaveBoardPage() {
             </div>
             <div style={{ width: "600px", height: "62px" }}></div>
             <MeongsaengContent></MeongsaengContent>
-        </>
+        </div>
     )
 }

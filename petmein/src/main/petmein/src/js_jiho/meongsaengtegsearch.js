@@ -6,7 +6,7 @@ import tegimg from "../img/teg.jpg";
 
 export default function MeongsaengTegSearch() {
     return (
-        <>
+        <div>
             <div className="top">
                 <div className="search-box">
                 <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
@@ -41,6 +41,6 @@ export default function MeongsaengTegSearch() {
                     <div style={{fontWeight: "700" }}>#말티즈분양</div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

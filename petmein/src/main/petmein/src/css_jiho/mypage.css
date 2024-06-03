@@ -1,19 +1,16 @@
-.mypage {
+.mypage .my-page {
     height: 250px;
     width: 100%;
     max-width: 600px;
 }
 
-.mytop {
+.mypage .my-mytop {
     display: flex;
     justify-content: space-between;
     background: #FFFFFF;
     position: fixed;
-    border-radius: 0px 0px 16px 16px;
     background: #FFFFFF;
     border-bottom: 0.5px solid #D2D5D6;
-    border-left: 0.5px solid #D2D5D6;
-    border-right: 0.5px solid #D2D5D6;
     height: 62px;
     top: 0;
     left: 0;
@@ -25,19 +22,19 @@
     align-items: center;
 }
 
-.mypage-profile {
+.mypage .mypage-profile {
     height: 188px;
     width: 100%;
 }
 
-.mypage-profile-up {
+.mypage .mypage-profile-up {
     display: flex;
     justify-content: space-evenly;
     height: 90px;
     width: 100%;
 }
 
-.profile-up-img {
+.mypage .profile-up-img {
     height: 85px;
     width: 85px;
     background-image: url("../img/사진1.jpg");
@@ -47,27 +44,27 @@
     margin-top: 10px;
 }
 
-.profile-up-text {
+.mypage .profile-up-text {
     width: 100px;
     height: 48px;
     text-align: center;
     margin-top: 25px;
 }
 
-.mypage-profile-Low {
+.mypage .mypage-profile-Low {
     display: flex;
     justify-content: space-between;
     height: 98px;
     width: 100%;
 }
 
-.introduce {
+.mypage .introduce {
     margin-left: 45px;
     display: flex;
     align-items: center;
 }
 
-.save-board {
+.mypage .save-board {
     display: flex;
     align-items: center;
     justify-content: center;

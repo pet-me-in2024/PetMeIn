@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function UserPage() {
     return (
-        <>
+        <div className="userpage">
             <div className="user-page">
                 <div className="mytop">
                     <div style={{ display: "flex", width: "180px", height: "60px" }}>
@@ -57,6 +57,6 @@ export default function UserPage() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }

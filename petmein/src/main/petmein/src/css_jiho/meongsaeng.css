@@ -3,22 +3,7 @@
     text-decoration: none;
 }
 
-.content {
-    max-width: 600px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}
-
-.meongsaeng-pics {
-    width: 160px;
-    height: 160px;
-    margin: 5px;
-}
-
-.meong {
+.meongsaeng .meong {
     width: 100%;
     height: 100%;
     position: relative;
@@ -26,13 +11,13 @@
     bottom: 60px
 }
 
-.meongseng-teg-box {
+.meongsaeng .meongseng-teg-box {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
 
-.meongsaeng-teg {
+.meongsaeng .meongsaeng-teg {
     width: 100px;
     height: 28px;
     background-color: #e4d7ca;
@@ -41,7 +26,7 @@
     text-align: center;
 }
 
-.addButton {
+.meongsaeng .addButton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,5 +39,5 @@
     position: fixed;
     bottom: 80px;
     margin-left: 500px;
-    border: 2px solid rgb(206, 182, 158);
+    border: 1px solid rgb(206, 182, 158);
 }

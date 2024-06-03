@@ -1,19 +1,16 @@
-.user-page {
+.userpage .user-page {
     height: 270px;
     width: 100%;
     max-width: 600px;
 }
 
-.mytop {
+.userpage .mytop {
     display: flex;
     justify-content: space-between;
     background: #FFFFFF;
     position: fixed;
-    border-radius: 0px 0px 16px 16px;
     background: #FFFFFF;
     border-bottom: 0.5px solid #D2D5D6;
-    border-left: 0.5px solid #D2D5D6;
-    border-right: 0.5px solid #D2D5D6;
     height: 62px;
     top: 0;
     left: 0;
@@ -25,19 +22,19 @@
     align-items: center;
 }
 
-.userpage-profile {
+.userpage .userpage-profile {
     height: 188px;
     width: 100%;
 }
 
-.userpage-profile-up {
+.userpage .userpage-profile-up {
     display: flex;
     justify-content: space-evenly;
     height: 90px;
     width: 100%;
 }
 
-.profile-up-img {
+.userpage .profile-up-img {
     height: 85px;
     width: 85px;
     background-image: url("../img/사진3.jpg");
@@ -47,25 +44,25 @@
     margin-top: 10px;
 }
 
-.profile-up-text {
+.userpage .profile-up-text {
     width: 100px;
     height: 48px;
     text-align: center;
     margin-top: 25px;
 }
 
-.userpage-profile-Low {
+.userpage .userpage-profile-Low {
     height: 105px;
     width: 100%;
 }
 
-.userpage-introduce {
+.userpage .userpage-introduce {
     margin: 10px 0px 5px 45px;
     display: flex;
     align-items: center;
 }
 
-.user-follow {
+.userpage .user-follow {
     display: flex;
     align-items: center;
     justify-content: center;
