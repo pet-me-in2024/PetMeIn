@@ -33,14 +33,16 @@ export default function NewPost2() {
             <div className="new-post-input">
                 <input className="new-post-input-input" placeholder="문구를 작성해주세요."></input>
             </div>
-            <div className="new-post-meongteglist">
-                <FontAwesomeIcon icon={faPaw} style={{ color: "#e4d7ca", width: "25px", height: "23px", marginRight: "15px" }}
-                />멍태그 선택
-                <div className="new-post-meongTeg">#소형견</div>
-                <div className="new-post-meongTeg">#중형견</div>
-                <div className="new-post-meongTeg">#말티즈</div>
-                <div className="new-post-meongTeg">#멍스타</div>
-                <div className="new-post-meongTeg">#우리강아지</div>
+            <div style={{ display: "flex", justifyContent: "center"}}>
+                <div className="new-post-meongteglist">
+                    <FontAwesomeIcon icon={faPaw} style={{ color: "#e4d7ca", width: "25px", height: "23px", marginRight: "15px" }}
+                    />멍태그 선택
+                    <div className="new-post-meongTeg">#소형견</div>
+                    <div className="new-post-meongTeg">#중형견</div>
+                    <div className="new-post-meongTeg">#말티즈</div>
+                    <div className="new-post-meongTeg">#멍스타</div>
+                    <div className="new-post-meongTeg">#우리강아지</div>
+                </div>
             </div>
             <div style={{ display: "flex", width: "100%", flexDirection: "column", alignItems: "center" }}>
                 <div className="new-post-meongTegBox">

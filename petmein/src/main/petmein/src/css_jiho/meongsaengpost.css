@@ -31,8 +31,9 @@
     background-image: url("../img/사진3.jpg");
     background-position: center;
     background-size: cover;
-    height: 450px;
-    width: 450px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
 }
 
 .meongsaengpost .post-handle {

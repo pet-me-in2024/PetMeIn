@@ -20,14 +20,16 @@
     height: 50px;
     max-width: 600px;
     margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .meongsaengtop .box {
-    width: 510px;
+    width: 465px;
     height: 30px;
-    background-color: #dadada;
+    background-color: #e5e5e5;
     border-radius: 8px;
     outline: none;
     border: 0px;
-    padding: 2px;
+    padding: 2px 15px;
 }

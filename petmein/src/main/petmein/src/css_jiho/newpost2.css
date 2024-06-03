@@ -41,6 +41,8 @@
     height: 30px;
     background-color: #d0c1b4;
     margin-top: 5px;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .newpost2 .new-post-input {
@@ -64,10 +66,12 @@
 }
 
 .newpost2 .new-post-meongteglist {
+    width: 430px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10px 0px;
+    padding: 10px;
+    margin: 5px 0px;
     border-top: 1px solid #dadada;
     border-bottom: 1px solid #dadada;
 }

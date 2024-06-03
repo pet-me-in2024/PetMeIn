@@ -38,9 +38,11 @@ export default function NewPost() {
             <div className="new-post-input">
                 <input className="new-post-input-input" placeholder="문구를 작성해주세요."></input>
             </div>
-            <div style={{ borderTop: "1px solid #dadada", borderBottom: "1px solid #dadada", padding: "10px 0px" }}>
-                <FontAwesomeIcon icon={faPaw} style={{ color: "#e4d7ca", width: "25px", height: "23px", marginRight: "15px" }}
-                />멍태그 선택
+            <div style={{ display: "flex", justifyContent: "center"}}>
+                <div style={{ width: "430px", borderTop: "1px solid #dadada", borderBottom: "1px solid #dadada", padding: "10px" }}>
+                    <FontAwesomeIcon icon={faPaw} style={{ color: "#e4d7ca", width: "25px", height: "23px", marginRight: "15px" }}
+                    />멍태그 선택
+                </div>
             </div>
             <div style={{ display: "flex", width: "100%", flexDirection: "column", alignItems: "center" }}>
                 <div className="new-post-meongTegBox">
@@ -54,7 +56,7 @@ export default function NewPost() {
                     <div className="new-post-meongTeg">#7세 이상</div>
                 </div>
                 <div className="new-post-meongTegBox">
-                    <div className="new-post-new-teg">새로운 태그</div>
+                    <div className="new-post-new-teg">새 태그</div>
                     <div className="new-post-meongTeg">태그 추가</div>
                 </div>
                 <div className="new-post-meongTegBox">

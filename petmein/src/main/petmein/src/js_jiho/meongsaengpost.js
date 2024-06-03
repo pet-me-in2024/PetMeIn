@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../css_jiho/meongsaengpost.css"
-import { faBookmark, faChevronLeft, faComment, faHeart } from "@fortawesome/free-solid-svg-icons"
+import { faBookmark, faChevronLeft, faChevronRight, faComment, faHeart } from "@fortawesome/free-solid-svg-icons"
 
 export default function MeongsaengPost() {
     return (
@@ -18,10 +18,12 @@ export default function MeongsaengPost() {
             <div style={{ height: "62px", width: "600px" }}></div>
             <div style={{ display: "flex", alignItems: "center" }}>
                 <div className="post-profile-img"></div>
-                <div>jiho_0507</div>
+                <div style={{ fontWeight: "600", fontSize: "18px"}}>jiho_0507</div>
             </div>
-            <div style={{display: "flex", justifyContent: "center"}}>
-            <div className="post-photo"></div>
+            <div style={{ display: "flex", justifyContent: "space-around" }}>
+                <FontAwesomeIcon icon={faChevronLeft} style={{ color: "#d9d9d9", height: "400px", width: "30px" }} />
+                <div className="post-photo"></div>
+                <FontAwesomeIcon icon={faChevronRight} style={{ color: "#d9d9d9", height: "400px", width: "30px" }} />
             </div>
             <div className="post-handle">
                 <div style={{ display: "flex" }}>
@@ -39,8 +41,8 @@ export default function MeongsaengPost() {
                     </div>
                 </div>
             </div>
-            <div style={{ margin: "5px 5px 5px 35px", fontWeight: "600", fontSize: "18px"}}>jiho_1234</div>
-            <div style={{ margin: "5px 5px 5px 35px", fontSize: "18px" }}>귀여운 우리집 프린~~❤️❤️❤️❤️</div>
+            <div style={{ margin: "5px 5px 5px 35px", fontWeight: "600", fontSize: "17px" }}>jiho_0507</div>
+            <div style={{ margin: "5px 5px 5px 35px", fontSize: "16px" }}>귀여운 우리집 프린~~❤️❤️❤️❤️</div>
 
             <div className="post-tegs">
                 <div className="post-teg-box">

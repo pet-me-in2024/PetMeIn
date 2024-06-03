@@ -14,34 +14,24 @@ export default function Follower() {
                     <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
                         <FontAwesomeIcon icon={faChevronLeft} style={{ color: "#ceb69e", width: "30px", height: "25px" }} />
                     </div>
-                    <div style={{ textAlign: "center", margin: "11px 0px 0px 15px" }}>
-                        <p style={{ fontWeight: "700", fontSize: "20px" }}>팔로워</p>
-                    </div>
-                </div>
-                <div style={{ display: "flex", width: "130px", height: "60px" }}>
-                    <div style={{ textAlign: "center", margin: "10px" }}>
-                        <FontAwesomeIcon icon={faBell} style={{ color: "#e4d7ca", width: "25px", height: "25px" }} />
-                        <div style={{ fontSize: "10px", fontWeight: "900" }}>알림</div>
-                    </div>
-                    <div style={{ textAlign: "center", margin: "10px" }}>
-                        <FontAwesomeIcon icon={faCalendarCheck} style={{ color: "#e4d7ca", width: "25px", height: "25px" }} />
-                        <div style={{ fontSize: "10px", fontWeight: "900" }}>예약관리</div>
+                    <div style={{ textAlign: "center", margin: "13px 0px 0px 15px" }}>
+                        <p style={{ fontWeight: "700", fontSize: "17px" }}>팔로워</p>
                     </div>
                 </div>
             </div>
             <div style={{ height: "62px", width: "600px" }}></div>
             <div>
-                <div style={{display: "flex", alignItems: "center" }}>
+                <div style={{ display: "flex", alignItems: "center" }}>
                     <div className='follow-user-profile-img' style={{ backgroundImage: 'url(' + img1 + ')' }}></div>
-                    <div style={{fontWeight: "700" }}>Jiho_0001</div>
+                    <div style={{ fontWeight: "700" }}>Jiho_0001</div>
                 </div>
-                <div style={{display: "flex", alignItems: "center"}}>
+                <div style={{ display: "flex", alignItems: "center" }}>
                     <div className='follow-user-profile-img' style={{ backgroundImage: 'url(' + img2 + ')' }}></div>
-                    <div style={{fontWeight: "700" }}>Jiho_0002</div>
+                    <div style={{ fontWeight: "700" }}>Jiho_0002</div>
                 </div>
-                <div style={{display: "flex", alignItems: "center"}}>
+                <div style={{ display: "flex", alignItems: "center" }}>
                     <div className='follow-user-profile-img' style={{ backgroundImage: 'url(' + img3 + ')' }}></div>
-                    <div style={{fontWeight: "700" }}>Jiho_0003</div>
+                    <div style={{ fontWeight: "700" }}>Jiho_0003</div>
                 </div>
             </div>
             <div style={{ height: "62px", width: "600px" }}></div>

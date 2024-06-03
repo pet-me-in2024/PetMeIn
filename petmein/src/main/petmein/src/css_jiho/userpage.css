@@ -1,5 +1,5 @@
 .userpage .user-page {
-    height: 270px;
+    height: 100%;
     width: 100%;
     max-width: 600px;
 }
@@ -23,7 +23,7 @@
 }
 
 .userpage .userpage-profile {
-    height: 188px;
+    height: 100%;
     width: 100%;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .userpage .userpage-profile-Low {
-    height: 105px;
+    height: 100%;
     width: 100%;
 }
 
@@ -72,4 +72,5 @@
     background-color: #e4d7ca;
     text-align: center;
     font-size: 15px;
+    margin: 10px;
 }

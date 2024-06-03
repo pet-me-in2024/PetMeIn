@@ -1,6 +1,7 @@
 import "../css_jiho/mypage.css"
 import { faBell, faCalendarCheck, faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import MeongsaengContent from "./meongsaengcontent";
 
 export default function MyPage() {
     return (
@@ -32,31 +33,32 @@ export default function MyPage() {
                         <div className="profile-up-img"></div>
                         <div className="profile-up-text">
                             <div style={{ fontWeight: "700" }}>8</div>
-                            <div style={{ fontWeight: "500" }}>게시물</div>
+                            <div style={{ fontWeight: "550" }}>게시물</div>
                         </div>
                         <div className="profile-up-text">
                             <div style={{ fontWeight: "700" }}>1.9k</div>
-                            <div style={{ fontWeight: "500" }}>팔로워▼</div>
+                            <div style={{ fontWeight: "550" }}>팔로워▼</div>
                         </div>
                         <div className="profile-up-text">
                             <div style={{ fontWeight: "700" }}>219</div>
-                            <div style={{ fontWeight: "500" }}>팔로잉▼</div>
+                            <div style={{ fontWeight: "550" }}>팔로잉▼</div>
                         </div>
                     </div>
                     <div className="mypage-profile-Low">
                         <div className="introduce">
-                            <pre style={{ margin: "0", fontWeight: "500" }}>
+                            <div style={{ fontWeight: "500", fontSize: "16px" }}>
                                 4살 말티즈 ❤️프린❤️, ❤️보리❤️ <br></br>
                                 부산에 살아요 <br></br>
                                 우리집 강아지 프린, 보리 귀엽죠❣️❣️
-                            </pre>
+                            </div>
                         </div>
-                        <div style={{ display: "flex", alignItems: "flex-end", fontWeight: "600" }}>
+                        <div style={{ display: "flex", alignItems: "flex-end", fontWeight: "500" }}>
                             <div className="save-board">저장한 게시물</div>
                         </div>
                     </div>
                 </div>
             </div>
+            <MeongsaengContent></MeongsaengContent>
         </div>
     );
 }

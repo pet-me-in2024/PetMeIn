@@ -14,18 +14,8 @@ export default function Following() {
                     <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
                         <FontAwesomeIcon icon={faChevronLeft} style={{ color: "#ceb69e", width: "30px", height: "25px" }} />
                     </div>
-                    <div style={{ textAlign: "center", margin: "11px 0px 0px 15px" }}>
+                    <div style={{ textAlign: "center", margin: "13px 0px 0px 15px" }}>
                         <p style={{ fontWeight: "700", fontSize: "17px" }}>팔로잉</p>
-                    </div>
-                </div>
-                <div style={{ display: "flex", width: "130px", height: "60px" }}>
-                    <div style={{ textAlign: "center", margin: "10px" }}>
-                        <FontAwesomeIcon icon={faBell} style={{ color: "#e4d7ca", width: "25px", height: "25px" }} />
-                        <div style={{ fontSize: "10px", fontWeight: "900" }}>알림</div>
-                    </div>
-                    <div style={{ textAlign: "center", margin: "10px" }}>
-                        <FontAwesomeIcon icon={faCalendarCheck} style={{ color: "#e4d7ca", width: "25px", height: "25px" }} />
-                        <div style={{ fontSize: "10px", fontWeight: "900" }}>예약관리</div>
                     </div>
                 </div>
             </div>

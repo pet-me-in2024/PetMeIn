@@ -7,13 +7,9 @@ export default function MeongsaengSearch() {
         <div className="meongsaengsearch">
             <div className="top">
                 <div className="search-box">
-                    <div style={{ textAlign: "center", margin: "13px 10px 10px 20px" }}>
                         <FontAwesomeIcon icon={faChevronLeft} style={{ color: "#ceb69e", width: "30px", height: "25px" }} />
-                    </div>
-                    <div>
-                        <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: "#8c6e50", width: "25px", height: "25px", marginTop: "3px" }} />
-                    </div>
-                    <input className="box"></input>
+                        <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: "#8c6e50", width: "25px", height: "25px", margin: "3px 10px 0px 0px" }} />
+                    <input className="box" placeholder="검색"></input>
                 </div>
             </div>
             <div className="meong">
