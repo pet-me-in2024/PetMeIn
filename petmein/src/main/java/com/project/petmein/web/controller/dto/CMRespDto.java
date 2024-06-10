@@ -1,4 +1,4 @@
-package com.project.petmein.web.dto;
+package com.project.petmein.web.controller.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
